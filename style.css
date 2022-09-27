@@ -1,0 +1,75 @@
+.background-Body{
+    background-color: rgba(32,35,41,255);
+  display: flex;
+    flex-direction: row; 
+    align-items: center;  
+    justify-content:space-around;
+}
+
+.item-Base{ 
+    height: 160x;
+    width: 500px;
+    margin-top: 20%;
+}
+
+.content-B{
+    background-color:rgba(60,62,68,255);
+    display: inline-block;
+    display: flex;
+    flex-direction: row;
+    margin: 12px;
+    border-radius: 12px;
+}
+
+.image-Des{
+    border-bottom-left-radius: 12px;
+    border-top-left-radius: 12px;
+    height: 180px;
+    width: fit-content;
+}
+
+.font-Sel{
+    font-family: 'Hind', sans-serif;
+
+}
+
+.info-Des{
+    margin-left: 10px;
+    display: inline-block;
+    padding-bottom: 25px;
+    padding-top: 5px;
+    height: 150px;
+
+}
+
+.name-des{
+    font-family: 'Prompt', sans-serif;
+    color: white;
+    margin-block-start: 2px;
+    margin-block-end: -4px;
+    font-size: 23px;
+    font-weight: bolder;
+}
+
+.stat-Des{
+    color: white;
+    font-size: 12px;
+    font-weight: 600;
+    margin-block-start: 0px;
+}
+
+.gray-Des{
+    margin-block-start: 1px;
+    color: gray;
+    margin-block-end: -5px;
+    font-weight: 800;
+    font-size: 14px;
+}
+
+.white-Des{
+    color: white;
+    margin-block-start: 1px;
+    margin-block-end: 9px;
+    font-weight: 700;
+
+}
